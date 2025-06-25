@@ -35,7 +35,8 @@ const Login = () => {
         <div className="container mt-5" style={{ maxWidth: '400px' }}>
             <h2 className="mb-4">Login</h2>
             {error && <div className="alert alert-danger">{error}</div>}
-            <form onSubmit={handleLogin}>
+{/*             onSubmit={handleLogin} */}
+            <form >
                 <div className="mb-3">
                     <label className="form-label">Username</label>
                     <input
