@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
@@ -8,13 +8,15 @@ const Login = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const { login } = useAuth();
-    
+
+    useEffect(() => {
+        alert('Please use "admin" as username and "1234" as password for login.');
+    }, []);
 
     const handleLogin = (e) => {
         e.preventDefault();
 
         if (!username || !password) {
-            alert('Please use "admin" as username and "1234" as password for login.');
             setError('Both fields are required!');
             return;
         }
