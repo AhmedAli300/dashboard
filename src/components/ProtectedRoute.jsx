@@ -8,7 +8,7 @@ const ProtectedRoute = ({ children }) => {
   //   return <Navigate to="/dashboard" replace />;
   // }
 
-  // return children;
+  return children;
 };
 
 export default ProtectedRoute;

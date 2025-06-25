@@ -51,7 +51,7 @@ const AppContent = () => {
   return (
     <Layout>
       <Routes>
-        <Route path="/login" element={
+        <Route path="/" element={
            <Navigate to="/dashboard" replace /> 
         } />
         {/* <Route path="/" element={
