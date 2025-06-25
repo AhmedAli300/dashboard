@@ -8,6 +8,10 @@ const Login = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const { login } = useAuth();
+    
+    useEffect(() => {
+        alert('Please use "admin" as username and "1234" as password for login.');
+    }, []);
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -17,7 +21,7 @@ const Login = () => {
             return;
         }
         
-        if (username === '' && password === '') {
+        if (username === 'admin' && password === '1234') {
             setError('');
             const userData = {
                 username: username,
