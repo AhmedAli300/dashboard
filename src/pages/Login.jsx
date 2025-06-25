@@ -9,6 +9,10 @@ const Login = () => {
     const navigate = useNavigate();
     const { login } = useAuth();
     
+    useEffect(() => {
+        navigate('/dashboard');
+    }, [navigate]);
+
     // const handleLogin = (e) => {
     //     e.preventDefault();
 
