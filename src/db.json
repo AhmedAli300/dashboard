@@ -1,0 +1,206 @@
+{
+  "subscriptions": [
+    {
+      "id": "80b5",
+      "name": "ahmed ali",
+      "type": "Monthly",
+      "date": "2025-04-09",
+      "paid": true,
+      "notes": "اى حاجه "
+    },
+    {
+      "id": "838b",
+      "name": "amr ali",
+      "type": "Annual",
+      "date": "2025-04-08",
+      "paid": true,
+      "notes": "hgchgchg"
+    },
+    {
+      "id": "9926",
+      "name": "ali",
+      "type": "Annual",
+      "date": "2025-04-09",
+      "paid": true,
+      "notes": "assasca"
+    },
+    {
+      "id": "8fbb",
+      "name": "abo",
+      "type": "Annual",
+      "date": "2025-04-17",
+      "paid": true,
+      "notes": "vasjvaj"
+    },
+    {
+      "id": "ed3d",
+      "name": "mora",
+      "type": "Monthly",
+      "date": "2025-04-22",
+      "paid": true,
+      "notes": "scsdcscs"
+    },
+    {
+      "id": "5e1e",
+      "name": "nada",
+      "type": "Monthly",
+      "date": "2025-04-25",
+      "paid": true,
+      "notes": "ascsdcsdcsd"
+    },
+    {
+      "id": "db01",
+      "name": "morad",
+      "type": "Monthly",
+      "date": "2025-04-24",
+      "paid": true,
+      "notes": "htdhdthd"
+    },
+    {
+      "id": "605a",
+      "name": "mahmoud",
+      "type": "Monthly",
+      "date": "2025-04-25",
+      "paid": true,
+      "notes": "asxascsacsa"
+    },
+    {
+      "id": "2b8c",
+      "name": "amr",
+      "type": "Monthly",
+      "date": "2025-05-02",
+      "paid": false,
+      "notes": "asaax"
+    },
+    {
+      "id": "4f0e",
+      "name": "abo",
+      "type": "Monthly",
+      "date": "2025-05-03",
+      "paid": true,
+      "notes": "ascacscd"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "name": "ahmed ali",
+      "type": "asdasdasd",
+      "date": "2025-04-09",
+      "amount": 100,
+      "notes": "asdasdasd"
+    },
+    {
+      "id": "2",
+      "name": "amr ali",
+      "type": "asdasdasd",
+      "date": "2025-04-08",
+      "amount": 200,
+      "notes": "asdasdasd"
+    },
+    {
+      "id": "5",
+      "name": "abo",
+      "type": "asdasdasd",
+      "date": "2025-04-08",
+      "amount": 500,
+      "notes": "asdasdasd"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "ahmed ali",
+      "email": "liomora20@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "amr ali",
+      "email": "saavxjvsajxj100@gmail.com"
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "language": "en",
+    "notifications": true
+  },
+  "checkins": [
+    {
+      "id": "a98f",
+      "name": "amr ali",
+      "checkInTime": "2025-04-24T14:25:14.456Z",
+      "notes": "sjdjbcsbkjcbs"
+    },
+    {
+      "id": "e90e",
+      "name": "Ahmed Ali",
+      "checkInTime": "2025-04-24T14:25:25.299Z",
+      "notes": "sdfsf"
+    },
+    {
+      "id": "59dc",
+      "name": "amr ali",
+      "checkInTime": "2025-04-24T16:50:22.442Z",
+      "notes": "yguhknlkm;,'.\n/"
+    },
+    {
+      "id": "fe6e",
+      "name": "Ahmed Ali",
+      "checkInTime": "2025-04-24T18:14:08.060Z",
+      "notes": "dskcbsdcsk"
+    },
+    {
+      "id": "cc37",
+      "name": "ahmed",
+      "checkInTime": "2025-05-01T17:55:30.074Z",
+      "notes": "تأخير بسبب ظرف ما "
+    },
+    {
+      "id": "f8e0",
+      "name": "amr",
+      "checkInTime": "2025-05-03T12:06:31.206Z",
+      "notes": "تأخير 5  دقايق"
+    }
+  ],
+  "branches": [],
+  "leadingClients": [],
+  "employees": [
+    {
+      "name": "Ahmed Mohamed",
+      "role": "Trainer",
+      "status": "Active",
+      "salary": "6000",
+      "id": "1"
+    },
+    {
+      "name": "Sara Ali",
+      "role": "Receptionist",
+      "status": "Inactive",
+      "salary": "4500",
+      "id": "2"
+    }
+  ],
+  "shifts": [
+    {
+      "employeeName": "ahmed ali",
+      "date": "2025-04-24T09:00:00.000Z",
+      "startTime": "2025-04-24T09:00:00.000Z",
+      "numberOfHours": 8,
+      "id": "1"
+    },
+    {
+      "employeeName": "nada",
+      "date": "2025-04-24T18:17:50.711Z",
+      "startTime": "2025-04-24T21:15:50.711Z",
+      "numberOfHours": "9",
+      "id": "1745518689550"
+    },
+    {
+      "employeeName": "amr",
+      "date": "2025-05-01T17:57:04.170Z",
+      "startTime": "2025-05-01T17:57:04.170Z",
+      "numberOfHours": "10",
+      "id": "1746122234355"
+    }
+  ]
+}
