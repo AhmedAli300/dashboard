@@ -51,12 +51,12 @@ const AppContent = () => {
   return (
     <Layout>
       <Routes>
-        <Route path="/login" element={
+{/*         <Route path="/login" element={
           isAuthenticated ? <Navigate to="/dashboard" replace /> : <Login />
-        } />
-        <Route path="/" element={
+        } /> */}
+{/*         <Route path="/" element={
           isAuthenticated ? <Navigate to="/dashboard" /> : <Navigate to="/login" />
-        } />
+        } /> */}
         <Route path="/dashboard" element={
           <ProtectedRoute>
             <DashboardPage />
