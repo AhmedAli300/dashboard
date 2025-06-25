@@ -27,9 +27,9 @@ import { useAuth } from './context/AuthContext';
 const Layout = ({ children }) => {
   const { isAuthenticated } = useAuth();
   
-  // if (!isAuthenticated) {
-  //   return children;
-  // }
+  if (!isAuthenticated) {
+    return children;
+  }
 
   return (
     <>
@@ -51,17 +51,17 @@ const AppContent = () => {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={
-           <Navigate to="/dashboard" replace /> 
+        <Route path="/login" element={
+          isAuthenticated ? <Navigate to="/dashboard" replace /> : <Login />
         } />
-        {/* <Route path="/" element={
-          isAuthenticated ? <Navigate to="/dashboard" /> : <Navigate to="/dashboard" />
-        } /> */}
+        <Route path="/" element={
+          isAuthenticated ? <Navigate to="/dashboard" /> : <Navigate to="/login" />
+        } />
         <Route path="/dashboard" element={
           <ProtectedRoute>
             <DashboardPage />
           </ProtectedRoute>
-        } />  
+        } />
         <Route path="/subscriptions" element={
           <ProtectedRoute>
             <Subscriptions />

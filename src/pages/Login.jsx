@@ -8,32 +8,28 @@ const Login = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const { login } = useAuth();
-    
-    useEffect(() => {
-        navigate('/dashboard');
-    }, [navigate]);
 
-    // const handleLogin = (e) => {
-    //     e.preventDefault();
+    const handleLogin = (e) => {
+        e.preventDefault();
 
-    //     if (!username || !password) {
-    //         setError('Both fields are required!');
-    //         return;
-    //     }
+        if (!username || !password) {
+            setError('Both fields are required!');
+            return;
+        }
         
-    //     if (username === 'admin' && password === '1234') {
-    //         setError('');
-    //         const userData = {
-    //             username: username,
-    //             isAuthenticated: true,
-    //             loginTime: new Date().toISOString()
-    //         };
-    //         login(userData);
-    //         navigate('/dashboard');
-    //     } else {
-    //         setError('Invalid credentials');
-    //     }
-    // };
+        if (username === '' && password === '') {
+            setError('');
+            const userData = {
+                username: username,
+                isAuthenticated: true,
+                loginTime: new Date().toISOString()
+            };
+            login(userData);
+            navigate('/dashboard');
+        } else {
+            setError('Invalid credentials');
+        }
+    };
 
     return (
         <div className="container mt-5" style={{ maxWidth: '400px' }}>
