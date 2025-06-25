@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-https://ahmedali300.github.io/dashboard/
+https://dashboard-sigma-wheat-33.vercel.app/
 
 ## Expanding the ESLint configuration
 
